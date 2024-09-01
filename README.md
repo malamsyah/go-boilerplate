@@ -1,4 +1,4 @@
-# Go Skeleton Project
+# Go Boilerplate
 
 The project uses `make` to make your life easier. If you're not familiar with Makefiles you can take a look at [this quickstart guide](https://makefiletutorial.com).
 
@@ -31,5 +31,30 @@ Run tests
 
 ```bash
 make test-unit
-make test-repository
+```
+
+## Local Development
+
+Run dependency
+
+```bash
+make start-components
+```
+
+Stop dependency
+
+```bash
+make stop-components 
+```
+
+Build docker image
+
+```bash
+make docker-build
+```
+
+Run the server localy
+
+```bash
+make server
 ```
